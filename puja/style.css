@@ -1,0 +1,412 @@
+
+        @media(min-width:1200px){
+        .headerDesign {
+            width: 100%;
+            height: 200px;
+            background: #ddc;
+            border-bottom: 2px solid white;
+            border-right: 2px solid #f0ede7;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK5g6_VC9_iQzQf-R4UiS9VgR0AzZpyLEIA1TfqvOMJ13iJkEK");
+           
+            
+        }
+        
+        .bodyDesign {
+            background: #ffff;
+            width: 100%;
+            height: 500px;
+            border-right: 2px solid white;
+        }
+        
+        .leftPartDesign {
+            width: 30%;
+            background: #ccc;
+            height: 500px;
+            margin-left: 20px;
+            float: left;
+            background-image: url("");
+        }
+        .FirstBox {
+            margin-top: 0px;
+            width: 100%;
+            background:white;
+            height: 80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500px;
+            color:#0165a7;
+                
+        }
+        .SecondBox {
+            margin-top: 0px;
+            width: 100%;
+            background:#0165a7;
+            height: 20px;
+        }
+        
+        .rightPartDesign {
+            width: 65%;
+            height: 700px;
+            float: right;
+            margin-right: 20px;
+        }
+        
+        .firstOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            float: left;
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        .LineOne {
+           
+            height: 330px;
+            float: left;
+            margin-top: -120px;
+            margin-left: 280px;
+            border-style: dotted;
+            border-width: thin;
+            
+        }
+        
+        .secondOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            float: right;
+            margin-top: 10px;
+            font-size: 25px;
+            
+        }
+        .LineTwo {
+           
+            height: 330px;
+            float: left;
+            margin-top: -120px;
+            margin-left:280px;
+            border-style: dotted;
+            border-width: thin;
+            
+        }
+        
+        .thirdOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            margin-top: 10px;
+            float: right;
+            margin-right: 50px;
+            font-size: 25px;
+           
+        }
+        
+        .boxSizeDesign {
+            margin-top: 40px;
+            width: 100%;
+            background: #cccccc;
+            height: 200px;
+        }
+    }
+    @media(min-width:992px) and (max-width:1199px)
+    {
+        .headerDesign {
+            width: 100%;
+            height: 200px;
+            background: #ddc;
+            border-bottom: 2px solid white;
+            border-right: 2px solid #f0ede7;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK5g6_VC9_iQzQf-R4UiS9VgR0AzZpyLEIA1TfqvOMJ13iJkEK");
+        }
+    
+
+        
+        .bodyDesign {
+            background: #ffff;
+            width: 100%;
+            height: 500px;
+            border-right: 2px solid white;
+        }
+        
+        .leftPartDesign {
+            width: 30%;
+            background: #ccc;
+            height: 500px;
+            margin-left: 20px;
+            float: left;
+        }
+        .FirstBox {
+            margin-top: 10px;
+            width: 100%;
+            background:white;
+            height: 80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500px;
+            color:#0165a7;
+                
+        }
+        .SecondBox {
+            margin-top: 0px;
+            width: 100%;
+            background:#0165a7;
+            height: 20px;
+        }
+        
+        .rightPartDesign {
+            width: 65%;
+            height: 700px;
+            float: right;
+            margin-right: 20px;
+        }
+        
+        .firstOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            float: left;
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        
+        .secondOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            float: right;
+            margin-top: 10px;
+            font-size: 25px;
+            
+        }
+        
+        
+        .thirdOne {
+            width: 30%;
+            height: 410px;
+            background: #fff;
+            margin-top: 10px;
+            float: right;
+            margin-right: 50px;
+            font-size: 25px;
+           
+        }
+        
+        .boxSizeDesign {
+            margin-top: 40px;
+            width: 100%;
+            background: #cccccc;
+            height: 200px;
+        } 
+    }
+        @media(min-width:768px) and (max-width:991px) 
+        {
+            .headerDesign {
+                width: 110%;
+                height: 400px;
+                background: #ddc;
+                border-bottom: 2px solid white;
+                border-right: 2px solid #f0ede7;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK5g6_VC9_iQzQf-R4UiS9VgR0AzZpyLEIA1TfqvOMJ13iJkEK");
+            }
+            
+            .bodyDesign {
+                background: #ffff;
+                width: 100%;
+                height: 500px;
+                border-right: 2px solid white;
+            }
+            
+            .leftPartDesign {
+                width: 40%;
+                background: #ccc;
+                height: 500px;
+                margin-left: 2px;
+                float: left;
+                margin-top:-230px;
+            }
+            .FirstBox {
+                margin-top: 10px;
+                width: 100%;
+                background:white;
+                height: 80px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 500px;
+                color:#0165a7;
+                    
+            }
+            .SecondBox {
+                margin-top: 0px;
+                width: 100%;
+                background:#0165a7;
+                height: 20px;
+            }
+            
+            .rightPartDesign {
+                width: 75%;
+                height: 700px;
+                float: right;
+                margin-right: -190px;
+                
+            
+            }
+            .firstOne {
+                width: 40%;
+                height: 200px;
+                background: #fff;
+                float: left;
+                margin-top: -240px;
+                font-size: 25px;
+                margin-left: -60px;
+                
+            }
+           
+            
+            .secondOne {
+                width: 40%;
+                height: 200px;
+                background: #fff;
+                float: left;
+                margin-top: -4px;
+                font-size: 25px;
+                margin-left: -40px;
+            }
+           
+            
+            
+            .thirdOne {
+                width: 40%;
+                height: 200px;
+                background: #fff;
+                float: left;
+                margin-top: 250px;
+                font-size: 25px;
+                margin-left: -230px;
+               
+            }
+            
+            .boxSizeDesign {
+                margin-top: -135px;
+                width: 100%;
+                background: #cccccc;
+                height: 200px;
+                margin-left:220px;
+            } 
+        }
+        @media(min-width: 320px) and (max-width:767px)
+        {
+            .headerDesign {
+                width: 100%;
+                height: 140px;
+                background: grey;
+                border-bottom: 2px solid white;
+                border-right: 2px solid #f0ede7;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK5g6_VC9_iQzQf-R4UiS9VgR0AzZpyLEIA1TfqvOMJ13iJkEK");
+            }
+            
+            .bodyDesign {
+                background: red;
+                width: 50%;
+                height: 40;
+                border-right: 2px solid white;
+            }
+            
+            .leftPartDesign {
+                width: 170%;
+                background: white;
+                height: 500px;
+                margin-left: 20px;
+                float: left;
+        
+            }
+            .FirstBox {
+                margin-top: -120px;
+                width: 100%;
+                background:white;
+                height: 80px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 500px;
+                color:#0165a7;
+                    
+            }
+            .SecondBox {
+                margin-top: 0px;
+                width: 100%;
+                background:#0165a7;
+                height: 20px;
+            }
+            
+            .rightPartDesign {
+                width: 65%;
+                height: 700px;
+                float: right;
+                margin-right: 20px;
+            }
+            
+            .firstOne {
+                width: 120%;
+                height: 410px;
+                background: #fff;
+                float: left;
+                margin-top: -480px;
+                font-size: 25px;
+            }
+            .LineOne {
+               
+                height:0px;
+               
+                float: left;
+                margin-top: -120px;
+                margin-left: 280px;
+                border-style: dotted;
+                border-width: thin;
+                
+            }
+            
+            .secondOne {
+                width: 120%;
+                height: 410px;
+                background: #fff;
+                float: left;
+                margin-top: -280px;
+                font-size: 25px;
+                
+                
+            }
+            .LineTwo {
+               
+                height: 0px;
+                
+                float: left;
+                margin-top: -120px;
+                margin-left:280px;
+                border-style: dotted;
+                border-width: thin;
+                
+            }
+            
+            .thirdOne {
+                width: 120%;
+                height: 410px;
+                background: #fff;
+                float: left;
+                margin-top: -230px;
+                font-size: 25px;
+               
+            }
+            
+            .boxSizeDesign {
+                margin-top: -187px;
+                width: 100%;
+                background: #cccccc;
+                height: 140px;
+                float:left;
+                margin-left: 180px;
+        }
+
+    }
