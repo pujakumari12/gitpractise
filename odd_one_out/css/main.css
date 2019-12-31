@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: Rubric;
+	font-style: normal;
+	font-weight: normal;
+	src:url(../__fonts/Cabin-Bold.ttf);
+}
+
+@font-face{
+	font-family: Ans;
+	font-style: normal;
+	src:url(../__fonts/Roboto-Regular.ttf);
+}
+div, input
+{
+    font-variant-ligatures: none;
+}
+@font-face{
+	font-family: Title;
+	font-style: normal;
+	font-weight: normal;
+	src:url(../__fonts/MyriadPro-Semibold_2.otf);
+}
+body{
+	margin:0px;
+	padding:0px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+#main{
+	width: 1280px;
+	height: 720px;
+}
+
+.txtformat{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	background:transparent;
+	border:0;
+	border-bottom:2px solid black;
+	pointer-events: none;
+}
+
+.optionDesign{
+	box-shadow: inset 0px 0px 5px #666 ;
+	border: 3px solid #FFF;
+	border-radius:7px;
+	background:#ffff99;
+	padding: 10px;
+}
+
+#submit{
+	font-size: 21px;
+    font-family: Ans, sans-serif;
+    display: block;
+    width: 145px;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient( #fcfcfc, #bcbcbc);
+    background: -o-linear-gradient(#fcfcfc, #bcbcbc);
+    background: -moz-linear-gradient($fcfcfc, #bcbcbc);
+    background: linear-gradient( #fcfcfc, #bcbcbc);
+    color: #151515;
+    cursor: pointer;
+    padding: 7px 0 7px 0;
+    border-radius: 10px;
+    border-bottom: 1px solid #9c9999;
+    box-shadow: 2px 2px 5px 1px #3e3e3e;
+	visibility:hidden;
+}
+
+#answer{
+	position:relative;
+	font-size: 21px;
+    font-family: Ans, sans-serif;
+    display: block;
+    width: 145px;
+    font-weight: bold;
+    text-align: center;
+    background: -webkit-linear-gradient( #fcfcfc, #bcbcbc);
+    background: -o-linear-gradient(#fcfcfc, #bcbcbc);
+    background: -moz-linear-gradient($fcfcfc, #bcbcbc);
+    background: linear-gradient( #fcfcfc, #bcbcbc);
+    color: #151515;
+    cursor: pointer;
+    padding: 7px 0 7px 0;
+    border-radius: 10px;
+    border-bottom: 1px solid #9c9999;
+    box-shadow: 2px 2px 5px 1px #3e3e3e;
+	float:right;
+	visibility:hidden;
+}
+#sNumber{
+	
+}
+
+#checkSolution{
+	position:absolute;
+	width:350px;
+	top:525px;
+	left:260px;
+	z-index:1;
+}
+
+.nextpreNav{
+	width:540px;
+    position: absolute;
+	display:inline-block;
+}
+
+#nextBtn{
+	background:url(../../__images/arrow.png);
+	background-size: 61px 61px;
+	width: 61px;
+    height: 61px;
+	float: right;
+	cursor:pointer;
+}
+
+#preBtn{
+	background:url(../../__images/arrow2.png);
+	background-size: 61px 61px;
+	float:left;
+	width: 61px;
+    height: 61px;
+	cursor:pointer;
+}
+
+#activityText{
+	position:absolute;
+	left:200px; top:65px;
+	-webkit-animation-name: activityTextAnim;
+    -webkit-animation-duration: 1s;
+    animation-name: activityTextAnim;
+    animation-duration: 1s;
+}
+
+@-webkit-keyframes activityTextAnim {
+    0%   {left:200px; top:-100px;}
+    50%  {left:200px; top:95px;}
+    100% {left:200px; top:65px;}
+}
+
+
+@keyframes activityTextAnim {
+    0%   {left:200px; top:-100px;}
+    50%  {left:200px; top:95px;}
+    100% {left:200px; top:65px;}
+}
+
+#completedText{	
+	position:absolute;
+	left:600px; top:65px;
+	-webkit-animation-name: completedTextAnim;
+    -webkit-animation-duration: 1s;
+    animation-name: completedTextAnim;
+    animation-duration: 1s;
+}
+
+
+@-webkit-keyframes completedTextAnim {
+    0%   {left:600px; top:225px;}
+    50%  {left:600px; top:35px;}
+    100% {left:600px; top:65px;}
+}
+
+
+@keyframes completedTextAnim {
+    0%   {left:600px; top:225px;}
+    50%  {left:600px; top:35px;}
+    100% {left:600px; top:65px;}
+}
